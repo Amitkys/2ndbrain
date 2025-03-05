@@ -12,6 +12,8 @@ export function ImagePreviewGrid() {
     setPreviewFullScreenImage 
   } = useSmartTextareaStore()
 
+  console.log("preview image", previewImages);
+
   if (previewImages.length === 0) return null
 
   return (

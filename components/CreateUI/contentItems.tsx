@@ -16,6 +16,8 @@ export function ContentItemsList() {
 
   if (contentItems.length === 0) return null
 
+  console.log("content item", contentItems);
+
   return (
     <Card>
       <CardContent className="p-4">
